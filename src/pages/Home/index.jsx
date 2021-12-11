@@ -4,6 +4,7 @@ import { Container } from "./styles";
 import { Banner } from "../../components/Banner"
 import { Slide } from "../../components/Slide";
 import { News } from "../../components/News";
+import { Footer } from "../../components/Footer";
 
 export function Home() {
   return (
@@ -12,10 +13,7 @@ export function Home() {
       <Banner/>
       <Slide/>
       <News/>
-
-      <h1>Home</h1>
-
-      <Button>Button da HOme</Button>
+      <Footer/>
     </Container>
   );
 }
