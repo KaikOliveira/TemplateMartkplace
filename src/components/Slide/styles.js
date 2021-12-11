@@ -83,7 +83,7 @@ export const SlideContainer = styled.section`
           border-radius: 5px;
           background-color: #000;
           border: 0 none;
-
+          cursor: pointer;
           width: 126px;
           height: 35px;
         }
