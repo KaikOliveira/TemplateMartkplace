@@ -32,27 +32,26 @@ export const FooterContainer = styled.section`
         color: #fff;
         font-size: 14px;
         font-weight: 400;
-		line-height:1.5;
+        line-height: 1.5;
       }
     }
 
     button {
       display: flex;
-	  justify-content:center;
-	  align-items: center;
+      justify-content: center;
+      align-items: center;
       width: 195px;
       height: 40px;
       border: 0 none;
       border-radius: 5px;
-
-		&:nth-child(1){
-		margin-bottom: 25px;
-		margin-top:27px;
-	  }
-	  img{
-		  margin-right:20px ;
-	  }
-
+      cursor: pointer;
+      &:nth-child(1) {
+        margin-bottom: 25px;
+        margin-top: 27px;
+      }
+      img {
+        margin-right: 20px;
+      }
     }
 
     div {
@@ -67,7 +66,7 @@ export const FooterContainer = styled.section`
           &.Creator {
             display: flex;
             flex-direction: column;
-			justify-content:center;
+            justify-content: center;
             img {
               width: 72px;
               height: 18px;

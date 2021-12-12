@@ -41,6 +41,7 @@ export const HeaderContainer = styled.header`
       img {
         width: 18px;
         height: 18px;
+        cursor: pointer;
       }
     }
     button {
@@ -70,6 +71,7 @@ export const HeaderContainer = styled.header`
         img{
             width: 18px;
             height: 18px;
+            cursor: pointer;
         }
         
         div{

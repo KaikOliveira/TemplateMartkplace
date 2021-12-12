@@ -26,6 +26,8 @@ export const NewsContainer = styled.section`
                 border-radius:5px ;
                 margin: 8px;
                 border: 0 none;
+
+                outline: none;
             }
 
             button{

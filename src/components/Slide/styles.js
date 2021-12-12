@@ -86,6 +86,10 @@ export const SlideContainer = styled.section`
           cursor: pointer;
           width: 126px;
           height: 35px;
+
+          &:hover {
+            background: #ccc;
+          }
         }
       }
     }
