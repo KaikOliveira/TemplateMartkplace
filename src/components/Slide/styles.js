@@ -6,6 +6,10 @@ export const SlideContainer = styled.section`
   flex-direction: column;
   width: 1200px;
   align-self: center;
+  @media (max-width: 768px){
+    display: none;
+
+  }
 
   div {
     margin-top: 25px;

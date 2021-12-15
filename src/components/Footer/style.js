@@ -7,6 +7,10 @@ export const FooterContainer = styled.section`
   justify-content: center;
   background-color: #000;
   align-items: center;
+  @media (max-width: 768px){
+    display: none;
+
+  }
 
   section {
     display: flex;

@@ -1,8 +1,9 @@
-import { HeaderContainer } from "./styles";
+import { HeaderContainer, HamburguerContainer } from "./styles";
 import Logo_Header from "../../images/Logo_header.png";
 import Lupa from "../../images/Lupa.png";
 import Icone_user from "../../images/Icone_user.png";
 import Icone_carrinho from "../../images/Icone_carrinho.png";
+import Icon_hamburguer from "../../images/Icon_hamburguer.png";
 
 export function Header() {
   return (
@@ -24,6 +25,7 @@ export function Header() {
           </div>
         </aside>
       </div>
+      <HamburguerContainer src={Icon_hamburguer} alt="Menu hamburguer"/>
     </HeaderContainer>
   );
 }
