@@ -5,6 +5,7 @@ import Icone_user from "../../images/Icone_user.png";
 import Icone_carrinho from "../../images/Icone_carrinho.png";
 import Icon_hamburguer from "../../images/Icon_hamburguer.png";
 
+
 export function Header() {
   return (
     <HeaderContainer>
