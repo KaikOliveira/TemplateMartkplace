@@ -6,13 +6,10 @@ export const SlideContainer = styled.section`
   flex-direction: column;
   width: 1200px;
   align-self: center;
-  @media (max-width: 768px){
-    display: none;
-
-  }
 
   div {
     margin-top: 25px;
+
     strong {
     }
     > aside {
@@ -28,6 +25,10 @@ export const SlideContainer = styled.section`
     justify-content: space-between;
     align-items: center;
     position: relative;
+
+    @media (max-width: 768px){
+      
+    }
     aside {
       display: flex;
       align-items: center;
@@ -35,9 +36,16 @@ export const SlideContainer = styled.section`
 
       &.left {
         left: -25px;
+        @media (max-width: 768px) {
+          display: none;
+        }
       }
       &.right {
         right: -25px;
+
+        @media (max-width: 768px) {
+          display: none;
+        }
       }
     }
     div {

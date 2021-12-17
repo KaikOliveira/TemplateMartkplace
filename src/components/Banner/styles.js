@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import backgroundimagemobile from "../../images/image_mobile.png";
+
 
 export const Dots = styled.section`
   width: 70px;
@@ -37,9 +37,10 @@ export const BannerContainer = styled.div`
     width: 100%;
     height: 100%;
 
-    @media (max-width: 768px) {
-      background: url(${backgroundimagemobile}) no-repeat center;
+    &.img__Banner{
+    filter:brightness(0.4);
     }
+
   }
   div {
     height: auto;
